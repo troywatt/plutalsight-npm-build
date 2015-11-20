@@ -1,6 +1,6 @@
 {
   "name": "simaplesite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple website",
   "main": "index.js",
   "jshintConfig": {
