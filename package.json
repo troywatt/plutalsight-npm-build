@@ -35,7 +35,8 @@
     "version:major": "npm version major",
     "push:origin": "git push --tags origin HEAD:master",
     "launch:dev": "open http://localhost:3000",
-    "deploy:prod": "bash ./deployProd.sh"
+    "deploy:prod": "bash ./deployProd.sh",
+    "deploy:prod:time": "time(npm run deploy:prod)"
   },
   "keywords": [
     "something"
