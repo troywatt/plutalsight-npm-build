@@ -8,7 +8,7 @@ app.use(function *(){
 });
 
 var port = process.env.PORT || process.argv[ 2 ];
-port = ( typeof port === 'number' ) ? port : 3000;
+port = ( typeof port != 'number' ) ? 3000 : port;
 
 if( !module.parent ) {
     app.listen( port );

@@ -9,4 +9,11 @@ describe( 'our amazing site', function(){
             .end( done );
     });
 
+    it( 'should pass', function( done ){
+        request
+            .get( '/' )
+            .expect( 'Koa says hi' )
+            .end( done );
+    });
+
 });
